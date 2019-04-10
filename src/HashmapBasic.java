@@ -9,10 +9,10 @@ public class HashmapBasic {
 
     public static void main(String[] args) {
 
-        map.put("Kenny", true);
-        map.put("Joe", false);
+        map.put("Magdalena", true);
+        map.put("Slyva", false);
 
-        System.out.println(map.get("Kenny"));
+        System.out.println(map.get("Magdalena"));
 
         // Check if a key exists
         if(map.containsKey("Joe")) System.out.println(1);
@@ -30,7 +30,7 @@ public class HashmapBasic {
         for(Map.Entry key_value : map.entrySet()) System.out.println(key_value);
 
         // Removing from the hashmap
-        map.remove("Kenny");
+        map.remove("Slyva");
         for(Map.Entry key_value : map.entrySet()) System.out.println("After remove: \n" + key_value);
 
 
